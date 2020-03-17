@@ -1,0 +1,75 @@
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: $blue;
+  text-decoration: none;
+}
+
+.search-container {
+  .el-input__inner {
+    background: transparent;
+    border: none;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.select-net.el-select {
+  .el-input__inner {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .el-input__inner:focus,
+  .el-input.is-focus .el-input__inner {
+    border-color: white;
+  }
+}
+
+.el-table th {
+  height: 54px;
+  background: rgba(250, 250, 250, 1);
+}
+
+.el-pagination button,
+.el-pagination span:not([class*='suffix']) {
+  height: 32px;
+  line-height: 32px;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+  min-width: 32px;
+  height: 32px;
+  color: #330867;
+  line-height: 32px;
+  border-radius: 6px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background: #3a2b7e;
+  border: 1px solid #3a2b7e;
+}
+
+.el-menu--horizontal .el-menu .el-menu-item,
+.el-menu--horizontal .el-menu .el-submenu__title {
+  height: 52px;
+  padding: 8px;
+}
+.el-menu--horizontal .el-submenu .el-submenu__title{
+  i{
+    color: $white;
+  }
+  &:hover{
+    background: $purple !important;
+    color: $white !important;
+    i{
+      color: $white !important;
+    }
+  }
+}
