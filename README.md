@@ -12,7 +12,6 @@ npm run dev
 # build electron application for win
 npm run win
 
-
 # build electron application for mac
 npm run mac
 
